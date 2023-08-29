@@ -4,26 +4,38 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* A Magento 2 module to warm up the page cache
+* Version 1.0.0
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+**Add module to your composer.json file or clone repository**
+ <pre>
+ ```
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:USERNAME/REPOSITORY.git"
+        }
+    ],
+    "require": {
+        "aizetech/pagecachewarm": "1.0.0"
+    }
+}
+ ```
+ </pre>
+ ---
+**Configuration**
+* Magento Admin -> Stores -> Configuration -> Aizetech -> Page Cache Warm
+* Add urls in rows below
+* Save Configuration
+ ---
+**Dependencies**
+* Module is dependent on Magento_PageCache module
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+ ---
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* berkanduzgun@aizetech.nl
