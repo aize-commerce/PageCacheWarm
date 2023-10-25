@@ -16,7 +16,7 @@ This README would normally document whatever steps are necessary to get your app
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:USERNAME/REPOSITORY.git"
+            "url":  "git@bitbucket.org:aizetech/aizetech_pagecachewarm.git"
         }
     ],
     "require": {
